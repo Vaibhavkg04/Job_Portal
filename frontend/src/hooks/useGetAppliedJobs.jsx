@@ -29,3 +29,4 @@ const useGetAppliedJobs = () => {
  //            }
 
 export default useGetAppliedJobs
+
