@@ -20,5 +20,12 @@ const useGetAppliedJobs = () => {
         fetchAppliedJobs();
     }, [])
 }
+ // const res = await axios.get('/api/v1/application/get');
+ //                if (res.data.success) {
+ //                    dispatch(setAllAppliedJobs(res.data.application))
+ //                }
+ //            } catch (error) {
+ //                console.log(error);
+ //            }
 
 export default useGetAppliedJobs
